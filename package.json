@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-css-import-to-css",
+  "name": "rollup-plugin-css-import",
   "description": "A Rollup.js plugin to import css into native web components",
   "version": "1.0.0",
   "author": "So What",
