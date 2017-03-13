@@ -1,0 +1,47 @@
+{
+  "name": "rollup-plugin-css-import-to-css",
+  "description": "A Rollup.js plugin to import css into native web components",
+  "version": "1.0.0",
+  "author": "So What",
+  "homepage": "https://github.com/robhicks/rollup-plugin-css-import",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohbicks/rollup-plugin-css-import.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robhicks/rollup-plugin-css-import/issues"
+  },
+  "keywords": [
+    "rollup",
+    "rollup-plugin",
+    "css",
+    "native web components"
+  ],
+  "files": [
+    "src",
+    "lib"
+  ],
+  "main": "lib/rollup-plugin-css-import.cjs.js",
+  "module": "lib/rollup-plugin-css-import.es.js",
+  "jsnext:main": "lib/rollup-plugin-css-import.es.js",
+  "dependencies": {
+    "rollup-pluginutils": "^2.0.1",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-runtime": "^6.23.0",
+    "mocha": "^3.1.0",
+    "rollup": "^0.41.4",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-watch": "^3.2.2"
+  },
+  "scripts": {
+    "pretest": "rollup -c",
+    "test": "mocha",
+    "dev": "mocha --watch"
+  }
+}
